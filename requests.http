@@ -1,0 +1,5 @@
+### GET list of authors
+GET http://localhost:8000/api/authors
+
+### Get author by id
+GET http://localhost:8000/api/authors/1
