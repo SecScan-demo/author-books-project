@@ -12,3 +12,6 @@ Content-Type: application/json
     "firstName": "Cow",
     "lastName": "Lassan"
 }
+
+### Delete the user
+DELETE http://localhost:8000/api/authors/5

@@ -40,3 +40,11 @@ export const createAuthor = async (
     },
   })
 }
+
+export const deleteAuthor = async (id: number): Promise<void> => {
+  await db.author.delete({
+    where: {
+      id,
+    },
+  });
+};
