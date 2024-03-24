@@ -6,6 +6,8 @@ import * as AuthorService from "./author.service"
 
 export const authorRouter = express.Router()
 
+// making a comment in this line
+
 // GET: List of all authors
 authorRouter.get("/", async (request: Request, response: Response) => {
   try {
@@ -50,6 +52,8 @@ authorRouter.post(
     }
   }
 )
+
+// making a comment 2 in this line
 
 // DELETE: Delete an author based on the id
 // authorRouter.delete("/:id", async (request: Request, response: Response) => {
